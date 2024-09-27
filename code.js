@@ -10,7 +10,7 @@ for(var i=0;i<2;i++){
             alert("hi");
             break;
             case "B":
-            alert("Hello");
+            alert("Hello bye");
             break;
         }
     break;
