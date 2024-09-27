@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+@font-face{
+    font-family: myfont;
+    src: url(./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+
+/** Main Component Positioning **/ 
+
+body{
+    background-color:hsl(202, 86%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: myfont;
+    font-size: 13px;
+    
+    
+}
+.card{
+    height: 450px;
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+}
+.box{
+    height: 100%;
+    width: 50%;
+    padding: 25px;
+    border-radius: 10px;
+
+}
+.numberbox{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: hsl(202, 86%, 94%);
+
+}
+
+.inputbox{
+    width: 100px;
+    border: 0;
+    height: 30px;
+}
+.optionbox{
+    display:flex ;
+    gap: 10px;
+    padding: 10px 0 10px 0;
+}
+.type1{
+    border: 1px solid black;
+    padding: 3px;
+    margin: 7px;
+    border-radius: 5px;
+}
+.button1{
+    border-radius: 25px;
+    border: 0;
+    padding: 10px;
+    width: 50%;
+    background-color: hsl(61, 70%, 52%);
+}
+.button2{
+    border: 0;
+    background-color: white;
+    text-decoration: underline;
+}
+.cursor{
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    gap: 65px;
+    padding-top: 10px;
+}
+
+.resultbox{
+    background-color: hsl(202, 55%, 16%);
+    border-bottom-left-radius: 55px;
+    border-top-left-radius: 0;
+    color: white;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 35px;
+}
+h3{
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+}
+#finalresults{
+    display: none;
+    margin-top: 10px;
+}
+h5{
+    font-size: 12px;
+}
+.calculatedAmount{
+    background-color: hsl(201, 52%, 11%);
+    padding: 10px;
+    box-shadow:  0px -10px 2px 0px  hsl(61, 70%, 52%);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+p{
+    font-size: 13px;
+    color:hsl(203, 41%, 72%) ;
+}
+.text{
+    color: black;
+}
+
+
+             
